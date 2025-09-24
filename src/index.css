@@ -254,6 +254,57 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateX(0);
 }
 
+/* Blog card transitions */
+.blog-card-enter {
+  opacity: 0;
+  transform: scale(0.97);
+}
+.blog-card-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 0.5s, transform 0.5s;
+}
+.blog-card-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+.blog-card-exit-active {
+  opacity: 0;
+  transform: scale(0.97);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+/* Blog detail fade-in */
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.fade-in-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsive blog grid */
+@media (max-width: 1024px) {
+  .blog-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 768px) {
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+  .blog-detail-container {
+    padding: 1rem;
+  }
+}
+
+/* Blog card hover effect */
+.glass-card {
+  cursor: pointer;
+}
+
 /* Team card styles */
 .team-card {
   background: rgba(162, 89, 255, 0.08);
