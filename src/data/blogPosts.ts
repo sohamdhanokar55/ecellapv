@@ -1,7 +1,7 @@
 export const blogPosts = [
   {
     id: "1",
-    cover: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80",
+    cover: "/blog1-cover.jpeg",
     title: "The Mindset of an Entrepreneur – Why Thinking Differently Matters",
     excerpt: "Explore the entrepreneurial mindset and learn how thinking differently can lead to success in business and life. Discover the key traits that set entrepreneurs apart.",
     author: "APV E-Cell",
@@ -13,6 +13,8 @@ export const blogPosts = [
 What sets entrepreneurs apart from the rest of the world is not just their ideas, but the way they think. This is what we call the entrepreneurial mindset—a way of looking at challenges and opportunities that is built on resilience, creativity, and problem-solving. It's not about owning a company or starting a startup alone; it's about how you approach uncertainty, take risks, and adapt when things don't go as planned.
 
 Entrepreneurs like Steve Jobs, Ratan Tata, and Oprah Winfrey didn't just rely on business skills—they nurtured a mindset that allowed them to see possibilities where others saw obstacles. In today's fast-changing world, understanding this mindset is valuable not only for business founders but also for students, professionals, and anyone who wants to grow.
+
+So, what exactly makes up an entrepreneurial mindset? Let's break it down.
 
 ## Key Traits of an Entrepreneurial Mindset
 
